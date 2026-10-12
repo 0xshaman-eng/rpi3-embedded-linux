@@ -1,0 +1,16 @@
+# Build output and sources live outside this repo
+*.img
+*.vfat
+*.ext2
+*.ext4
+*.tar
+*.tar.*
+br-*/
+buildroot*/
+dl/
+
+# Eclipse build outputs
+apps/*/Debug/
+apps/*/Release/
+*.o
+*.d
